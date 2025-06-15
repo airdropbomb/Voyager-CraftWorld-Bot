@@ -29,8 +29,7 @@ Stay updated with the latest airdrops and updates:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/vikitoshi/Voyager-CraftWorld-Bot.git
-cd Voyager-CraftWorld-Bot
+git clone https://github.com/airdropbomb/Voyager-CraftWorld-Bot.git && cd Voyager-CraftWorld-Bot
 ```
 
 ### Install Dependencies
