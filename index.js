@@ -30,8 +30,16 @@ const logger = {
   countdown: (msg) => process.stdout.write(`\r${colors.blue}[⏰] ${msg}${colors.reset}`),
   banner: () => {
     console.log(`${colors.cyan}${colors.bold}`);
+    console.log(`
+ █████╗ ██████╗ ██████╗     ███╗   ██╗ ██████╗ ██████╗ ███████╗
+██╔══██╗██╔══██╗██╔══██╗    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝
+███████║██║  ██║██████╔╝    ██╔██╗ ██║██║   ██║██║  ██║█████╗
+██╔══██║██║  ██║██╔══██╗    ██║╚██╗██║██║   ██║██║  ██║██╔══╝
+██║  ██║██████╔╝██████╔╝    ██║ ╚████║╚██████╔╝██████╔╝███████╗
+╚═╝  ╚═╝╚═════╝ ╚═════╚═╝     ╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝
+    `);
     console.log(`---------------------------------------------`);
-    console.log(`  Voyager CW Auto Bot - Airdrop Insiders  `);
+    console.log(`         Craftworld Auto Bot - ADB NODE          `);
     console.log(`---------------------------------------------${colors.reset}`);
     console.log();
   }
